@@ -1,7 +1,7 @@
 import React from "react"
-import scissors from "../assets/scissors.png"
-import paper from "../assets/paper.png"
-import rock from "../assets/rock.jpg"
+import scissors from "./assets/scissor.png"
+import paper from "./assets/paper.png"
+import rock from "./assets/rock.png"
 
 const Player = ({ weapon }) => (
     <>
@@ -15,6 +15,6 @@ const Player = ({ weapon }) => (
             />
         </div>
     </>
-);
+)
 
 export default Player

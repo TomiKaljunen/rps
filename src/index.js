@@ -33,7 +33,7 @@ class App extends Component {
     const { playerOne, playerTwo } = this.state
 
     if (playerOne === playerTwo) {
-      return "Oops it's a Tie!"
+      return "Draw!"
     } else if (
       (playerOne === "rock" && playerTwo === "scissors") ||
       (playerOne === "scissors" && playerTwo === "paper") ||
